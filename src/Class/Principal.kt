@@ -32,7 +32,7 @@ fun main() {
     listafuncionarios.add(funcionario10)
     listafuncionarios.forEach { funcionario ->
         println("Nome: ${funcionario.nome} ${funcionario.sobreNome}")
-        println(funcionario.nomeCompleto())
+        //println(funcionario.nomeCompleto())
     }
 
 }
