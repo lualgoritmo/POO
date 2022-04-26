@@ -10,22 +10,29 @@ fun main() {
     //FIM PRIMEIRA PARTE
 
     val funcionario1: Funcionario = Funcionario("Maria", "João")
-    val f1 = ArrayList<Funcionario>()
-    f1.add(funcionario1)
-    f1.forEach { funcionario ->
+    val funcionario2: Funcionario = Funcionario("João", "Alarde")
+    val funcionario3: Funcionario = Funcionario("Leandrino", "Sevio")
+    val funcionario4: Funcionario = Funcionario("Seve", "Ala")
+    val funcionario5: Funcionario = Funcionario("Mary", "Seime")
+    val funcionario6: Funcionario = Funcionario("Cassia", "Milion")
+    val funcionario7: Funcionario = Funcionario("Maria", "João")
+    val funcionario8: Funcionario = Funcionario("João", "Alarde")
+    val funcionario9: Funcionario = Funcionario("Leandrino", "Sevio")
+    val funcionario10: Funcionario = Funcionario("Marioveiz", "Seje")
+    val listafuncionarios = ArrayList<Funcionario>()
+    listafuncionarios.add(funcionario1)
+    listafuncionarios.add(funcionario2)
+    listafuncionarios.add(funcionario3)
+    listafuncionarios.add(funcionario4)
+    listafuncionarios.add(funcionario5)
+    listafuncionarios.add(funcionario6)
+    listafuncionarios.add(funcionario7)
+    listafuncionarios.add(funcionario8)
+    listafuncionarios.add(funcionario9)
+    listafuncionarios.add(funcionario10)
+    listafuncionarios.forEach { funcionario ->
         println("Nome: ${funcionario.nome} ${funcionario.sobreNome}")
         println(funcionario.nomeCompleto())
     }
-    val funcionario2: Funcionario = Funcionario("Aria", "Stark")
-    val f2 = ArrayList<Funcionario>()
-    f2.add(funcionario2)
-    f2.forEach { funcionario ->
-        println("Nome: ${funcionario.nome} ${funcionario.sobreNome}")
-    }
-    val f3 = ArrayList<Funcionario>()
-    val funcionario3: Funcionario = Funcionario("Leoa", "Sa")
-    f3.add(funcionario3)
-    f3.forEach { funcionario ->
-        println("Nome: ${funcionario.nome} ${funcionario.sobreNome}")
-    }
+
 }
